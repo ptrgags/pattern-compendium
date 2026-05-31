@@ -28,6 +28,16 @@ These pages give examples of where patterns can be found. Some will be patterns 
 - [Piano Keyboard](./case-studies/piano-keyboard.html)
 - [Bass Guitar Fretboard](./case-studies/bass-fretboard.html)
 - [Guitar Harmonics](./case-studies/guitar-harmonics.html)
+- My Programming Projects
+    - [p5 Sketchbook](./case-studies/p5-sketchbook.html)
+    - [WebGPU Sketchbook](./case-studies/webgpu-sketchbook.html)
+    - [Paper Toaster](./case-studies/paper-toaster.html)
+    - [Raster Tangles](./case-studies/raster-tangles.html)
+    - [Drawing Machines](./case-studies/drawing-machines.html)
+    - [Symmetry Sketchbook](./case-studies/symmetry-sketchbook.html)
+    - [Virtual Museum](./case-studies/virtual-museum.html)
+    - [Holiday Shaders 2](./case-studies/holiday-shaders2.html)
+    
 
 ## Patterns
 
