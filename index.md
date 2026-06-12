@@ -23,7 +23,7 @@ up-and-down arpeggio in music:
 
 ## Core Concepts
 
-- [What is a Pattern?](./core/pattern.html)
+- {% include link.html text="What is a Pattern?" category="core" page="pattern" %}
 
 
 ## Case Studies
