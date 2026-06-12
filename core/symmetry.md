@@ -105,3 +105,19 @@ and set you can throw at it.
 - More generally: $f \circ I_X = I_Y \circ f$ (since the input and output might be different sets)
 - Fixed Points: $I(x) = x$
 - Fixed Sets: $I(S) = S$
+
+## More Notes
+
+🚧 Outline for now
+
+- ❓ how to generalize further to functions of 2+ variables?
+- I haven't explored other notions of symmetry such as symmetric relations
+- This page needs some concrete examples and images
+    - function symmetry... maybe a parabola?
+    - a checkerboard as an image would be a good example 
+- Things to cite (need to add some things to Jekyll to help manage these)
+    - [Math Stack Exchange post](https://math.stackexchange.com/a/94951) about the generalized symmetry formula in 
+        - ❓ that post assumes that the transformations are automorphisms... how necessary is that?
+    - 📗_Creating Symmetry_ by Frank Farris - this book talks about function symmetries and generalized symmetries
+    - Check 📗_Fractals Everywhere_, does it mention any of this?
+    - ...blanking on the name of a symmetry book by John Conway, see if that had any relevant definitions.
