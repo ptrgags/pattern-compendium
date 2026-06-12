@@ -12,7 +12,7 @@ This repository is a catalog of patterns with examples
 and recipes for implementing them. I'm particularly interested in exploring
 connections between disciplines. For example, the following diagram
 might represent a zig-zag frieze pattern in art, or perhaps an
-up-and-down arpeggio pattern in music:
+up-and-down arpeggio in music:
 
 ```
    --      --      --      --   
@@ -20,6 +20,11 @@ up-and-down arpeggio pattern in music:
  -    -  -    -  -    -  -    -   .  .  .
 -      --      --      --      -
 ```
+
+## Core Concepts
+
+- [What is a Pattern?](./core/pattern.html)
+
 
 ## Case Studies
 
