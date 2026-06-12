@@ -1,66 +1,107 @@
 ---
 layout: default
 ---
+# Symmetry
 
-# Pattern: Symmetry
+In math, there are a few different definitions of symmetry depending on the
+context. However, all are closely related.
 
-There are multiple definitions for symmetry
-in math depending on the context. All are related to each other.
+At a high level, a **symmetry** of an object is a transformation that leaves
+it unchanged in some sense that depends on context.
 
-At a high level, symmetry might be defined as a relationship where applying an operation to an object (a point, set, function, etc.) that leaves it unchanged. What exactly this means depends on the context.
+## Note on Terminology
 
-For example, if you rotate an (unmarked) square by 90 degrees, the end result is indistinguishable from the original.
+In the sections below, I use the following terminology:
 
-IMG: rotation symmetry of the square
+- **transformation** - a function from a set to itself
+    - e.g. $a: X \to X$
+- **function** - for more general functions that may map between different sets
+    - e.g. $f: X \to Y$
+- **input transformation** - a transformation on the domain of a function
+    - e.g. $a: X \to X$
+- **output transformation** - a transformation on the codomain of a function
+    - e.g. $b: Y \to Y$
 
-However, for functions there's a more general notion of symmetry. I would describe it as "applying this operation to the input is the same as applying that operation to the output"
+All of these are functions, but these terms provide hints as to how they are
+used in patterns.
 
-To continue the example of the square: now suppose we painted the square with a checkerboard pattern. Rotating the shape 90 degrees is the same as swapping the colors (`red <-> black`).
+I don't assume any further properties of these functions unless otherwise noted.
 
-IMG: (rotate, swap) symmetry of a checkered square
+## Symmetry of a Function
 
+Given a function $f:X \to Y$, an input transformation
+$a: X \to X$, is a **symmetry of** $f$ when
 
-## Identity, the strictest symmetry
+$$f \circ a = f$$
 
-IMG: Two identical objects side-by-side
+Sometimes this is phrased as "$f$ is $a$-symmetric."
 
-Let's start with the most strictest symmetry:
-The **identity function**, $I(x) = x$, a function that simply returns its input unchanged. In other words, it's a "no-op" or "do nothing" function.
+## Generalized Symmetry
 
-I consider this the strictest form of symmetry
-because it preserves anything you throw at it.
+Given a function $f: X \to Y$, an input transformation $a: X \to X$, and
+an output transformation $b: Y \to Y$, $(a, b)$ is a **symmetry of** $f$
+when
 
-IMG: diagram of fixing points, sets and functions
+$$f \circ a = b \circ f$$
 
-- $I(x) = x$ - $I$ preserves any individual value.
-- $I(S) = \{I(x) | x \in S\} = \{x | x \in S\} = S$ - $I$ also preserves any _set_ of values
-- $f \circ I = f = I \circ f$ - when composed with some other function, it leaves the function unchanged.
+Sometimes this is phrased as "$f$ is $(a, b)$-symmetric"
+
+## Fixed Points
+
+A **fixed point** is a point $x \in X$ that stays in place when being 
+transformed by a transformation $a:X \to X$
+
+$$a(x) = x$$
+
+Sometimes this is phrased as "$a$ fixes $x$"
+
+## Fixed Sets
+
+We can zoom out and look at collections of points that stay in place under
+a transformation. If $S$ is a set and $a: X \to X$ is a transformation, then
+$S$ is a **fixed set** whenever 
+
+$$f(S) = \{f(x) | x \in S \} = S$$
+
+Similar to fixed points, we can say "$a$ fixes $S$"
+
+### Subtlety About Fixed Sets
+
+> [!IMPORTANT]
+> A set of fixed points is a fixed set, but a fixed set does not
+> need to include any fixed points!
+
+If you gather a set of fixed points and apply a transformation to the whole
+set, each point will remain fixed, and therefore the set will be fixed.
 
 <details>
-<summary>I'm being informal here...</summary>
 
-Technically speaking, there's a different identity function for each domain under consideration. For example, if the sets $X, Y$
-are your domains, then you have functions $I_X: X \to X, I_Y: Y \to Y$.
+<summary>Proof</summary>
 
-In the function composition example, if $f: X \to Y$, the symmetry rule would be more accurately: $$f I_X = f = I_Yf$$ since the
-domain and codomain are different sets.
+Let $a: X \to X$ be a transformation and $F$ be a set of fixed points
+of $a$. We want to prove that $a(F) = F$.
 
-So when I write $I$ without a subscript, I mean
-"the identity function for the appropriate domain".
+Expanding the left hand side, we get
+
+$$a(F) = \{a(x) | x \in F\}$$
+
+but each $x$ is a fixed point of $a$, so $a(x) = x$ by definition.
+
+$$\{a(x) | x \in F\} = \{x | x \in F\} = F$$
 </details>
 
-## Symmetry as fixing points
+## Identity, the Strongest Form of Symmetry
 
-TODO
+> [!IMPORTANT]
+> Every function/point/set has identity symmetry
 
-## Symmetry as fixing sets
+An identity transformation $I:X \to X, I(x) = x$ is a "do nothing" transformation,
+it simply returns its input unchanged.
 
-TODO
+This is a very strong form of symmetry because it works on any function, point
+and set you can throw at it. 
 
-## Symmetry as fixing functions
-
-TODO
-
-## Generalized symmetry
-
-TODO
+- Functions: $f \circ I = f$
+- More generally: $f \circ I_X = I_Y \circ f$ (since the input and output might be different sets)
+- Fixed Points: $I(x) = x$
+- Fixed Sets: $I(S) = S$

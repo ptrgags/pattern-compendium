@@ -24,6 +24,7 @@ up-and-down arpeggio in music:
 ## Core Concepts
 
 - {% include link.html text="What is a Pattern?" category="core" page="pattern" %}
+- {% include link.html text="Symmetry" category="core" page="symmetry" %}
 
 
 ## Case Studies
