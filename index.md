@@ -3,10 +3,6 @@ layout: default
 title: Home
 ---
 
-{% for page in site.pages %}
-<p>{{page.name}} {{page.keys}}</p>
-{% endfor %}
-
 # Pattern Spotting
 
 A key theme in all my creative works is the use of patterns. This includes
@@ -32,7 +28,24 @@ up-and-down arpeggio in music:
 
 ## Building Blocks
 
-- {% include link.html text="Uniform Circular Motion" category="building_blocks" page="circular-motion" %}
+<div class="card-list">
+{% for bb in site.building_blocks %}
+    {% assign image_url = "./building_blocks/figures/" | append: bb.thumbnail %}
+    {% assign page_url = "./building_blocks/" | append: bb.slug | append: ".html" %}
+    {% include thumbnail.html 
+        title=bb.title
+        page_url=page_url
+        image_url=image_url
+        alt=bb.thumbnail_alt 
+    %}
+{% endfor %}
+</div>
+
+## Patterns
+
+---
+
+🚧 I'm reorganizing the website, below are some older pages that need reformatting
 
 ## Case Studies
 
