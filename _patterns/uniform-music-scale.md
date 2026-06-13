@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: article
+thumbnail: uniform-music-scale.png
+thumbnail_alt: Diagram of scale ascending by fifths
+title: Uniform Musical Scale
 ---
-# Uniform Musical Scale
-
-Musical scales can be created
 
 ## Definition
 

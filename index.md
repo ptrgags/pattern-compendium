@@ -28,20 +28,11 @@ up-and-down arpeggio in music:
 
 ## Building Blocks
 
-<div class="card-list">
-{% for bb in site.building_blocks %}
-    {% assign image_url = "./building_blocks/figures/" | append: bb.thumbnail %}
-    {% assign page_url = "./building_blocks/" | append: bb.slug | append: ".html" %}
-    {% include thumbnail.html 
-        title=bb.title
-        page_url=page_url
-        image_url=image_url
-        alt=bb.thumbnail_alt 
-    %}
-{% endfor %}
-</div>
+{% include thumbnail_list.html collection = site.building_blocks collection_name="building_blocks" %}
 
 ## Patterns
+
+{% include thumbnail_list.html collection=site.patterns collection_name="patterns" %}
 
 ---
 
