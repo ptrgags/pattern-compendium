@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: article
+thumbnail: circular-motion-thumbnail.png
+thumbnail_alt: Diagram of circular motion
+title: Uniform Circular Motion
 ---
-
-# Uniform Circular Motion
-
-![Diagram of circular motion](figures/circular-motion-thumbnail.png)
 
 Motion around a circle is a building block for several other patterns, and plays a role in the [Fourier Transform](./fourier-transform.html).
 
@@ -18,7 +17,7 @@ Let $C_n(t)$ represent motion around a circle such that:
 
 What is the nature of $C_n$? There's a couple ways to think about it:
 
-![Diagram with the left hal showing a rotation transformation, and the right half showing a curve created by rotating a point](figures/circular-motion-two-views.png)
+![Diagram with the left half showing a rotation transformation, and the right half showing a curve created by rotating a point](figures/circular-motion-two-views.png)
 
 - As a transformation: $C_n$ is a continuous [rotation](./rotation.html) with an angle that changes with time.
     - Since we complete $n$ full cycles, and there are $2\pi$ radians/cycle, that means we rotate to an angle of $\theta(t) = 2\pi n t$ radians at time $t$

@@ -17,6 +17,10 @@ blockquote {
     border-left: 4px solid #e2e259
 }
 
+.center {
+    text-align: center;
+}
+
 .highlight pre {
     width: fit-content;
     background-color: var(--background-darker);
