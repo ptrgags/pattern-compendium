@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+{% for page in site.pages %}
+<p>{{page.name}} {{page.keys}}</p>
+{% endfor %}
+
 # Pattern Spotting
 
 A key theme in all my creative works is the use of patterns. This includes
@@ -39,7 +43,6 @@ These pages give examples of where patterns can be found. Some will be patterns 
 
 These pages describe specific patterns and point out examples across various disciplines.
 
-- [Symmetry](./patterns/symmetry.html)
 - Visual Patterns
    - [Stripes](./patterns/stripes.html) - `| | | | | | | `
 - Musical Pitch

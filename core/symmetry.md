@@ -42,7 +42,7 @@ Given a function $f: X \to Y$, an input transformation $a: X \to X$, and
 an output transformation $b: Y \to Y$, $(a, b)$ is a **symmetry of** $f$
 when
 
-$$f \circ a = b \circ f$$
+$$f \circ a = b \circ f$$ [^1]
 
 Sometimes this is phrased as "$f$ is $(a, b)$-symmetric"
 
@@ -118,6 +118,10 @@ and set you can throw at it.
 - Things to cite (need to add some things to Jekyll to help manage these)
     - [Math Stack Exchange post](https://math.stackexchange.com/a/94951) about the generalized symmetry formula in 
         - ❓ that post assumes that the transformations are automorphisms... how necessary is that?
-    - 📗_Creating Symmetry_ by Frank Farris - this book talks about function symmetries and generalized symmetries
     - Check 📗_Fractals Everywhere_, does it mention any of this?
     - ...blanking on the name of a symmetry book by John Conway, see if that had any relevant definitions.
+
+## Footnotes
+
+[^1]: See {% include citation.html id="creating-symmetry" %}, specifically the 
+chapters on "color-reversing" and "color-turning" symmetry.
