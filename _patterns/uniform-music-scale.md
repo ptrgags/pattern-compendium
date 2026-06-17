@@ -34,7 +34,7 @@ Since there are only 12 musical intervals, we can list all the possibilities
 | Major sixth (M6)         | 9  | `C A F# D#` | C fully diminished chord, descending |
 | Minor seventh (m7)       | 10 | `C A# G# F# E D` | C whole tone scale, descending |
 | Major seventh (M7)       | 11 | `C B A# A G# G F# F E D# D C#` | C Chromatic scale,  descending |
-| Perfect 8th (octave, P8) | 12 | `C` | C by itself |
+| Perfect 8th (octave, P8) | 12 | `C` | C at various octaves |
 
 ## Other notes
 
