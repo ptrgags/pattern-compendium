@@ -38,6 +38,23 @@ definition:
 What exactly the above means depends greatly on the context. The other pages
 on this website will give many concrete examples.
 
+## Symmetry and Patterns
+
+With this definition of pattern, I view [symmetry](./symmetry) as a _property_
+of a pattern, rather than part of the definition. 
+
+Symmetry may show up in patterns in a number of different ways:
+
+- Sometimes a building block has symmetry that influences the symmetry of the
+pattern.
+- Sometimes the rules introduce symmetry relationships that are inherited by
+the pattern.
+- Sometimes symmetry emerges indirectly from a pattern due to the particular
+combination of building blocks and rules.
+
+In addition to cataloguing patterns, this website will also document notable
+symmetry relationships found within each pattern.
+
 ## Many Synonyms
 
 Patterns show up in many disciplines, though the terminology varies wildly.
@@ -60,5 +77,6 @@ Here are some examples:
 | Recursive Sequences | base case | recursive case |
 | Fractal Curve | initial shape | substitution rules |
 | Formal Languages | terminal symbols | non-terminal symbols/production rules |
+| Differential Equations | Initial Conditions, Boundary Conditions | Differential Equations |
 | _Science_ |
 | Hydrocarbons | carbon, hydrogen | carbons can connect to 1-4 other atoms, hydrogen can connect to 1 other atom |
