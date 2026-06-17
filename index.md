@@ -61,7 +61,7 @@ These pages describe specific patterns and point out examples across various dis
    - [Spooky Sevenths Progression](./patterns/spooky-sevenths-progression.html)
    - [String Harmonics](./patterns/string-harmonics.html)
 - Periodic Motion
-   - [Uniform Circular Motion](./patterns/circular-motion.html)
+   - [Uniform Circular Motion](./building_blocks/circular-motion)
    - [Lissajous Curves](./patterns/lissajous.html)
    - [Rose Curves](./patterns/rose-curves.html)
    - [Trochoids](./patterns/trochoids.html)
