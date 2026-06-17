@@ -12,7 +12,7 @@ This repository is a catalog of patterns with examples
 and recipes for implementing them. I'm particularly interested in exploring
 connections between disciplines. For example, the following diagram
 might represent a zig-zag frieze pattern in art, or perhaps an
-up-and-down arpeggio pattern in music:
+up-and-down arpeggio in music:
 
 ```
    --      --      --      --   
@@ -20,6 +20,23 @@ up-and-down arpeggio pattern in music:
  -    -  -    -  -    -  -    -   .  .  .
 -      --      --      --      -
 ```
+
+## Core Concepts
+
+- {% include link.html text="What is a Pattern?" category="core" page="pattern" %}
+- {% include link.html text="Symmetry" category="core" page="symmetry" %}
+
+## Building Blocks
+
+{% include thumbnail_list.html collection = site.building_blocks collection_name="building_blocks" %}
+
+## Patterns
+
+{% include thumbnail_list.html collection=site.patterns collection_name="patterns" %}
+
+---
+
+🚧 I'm reorganizing the website, below are some older pages that need reformatting
 
 ## Case Studies
 
@@ -33,7 +50,6 @@ These pages give examples of where patterns can be found. Some will be patterns 
 
 These pages describe specific patterns and point out examples across various disciplines.
 
-- [Symmetry](./patterns/symmetry.html)
 - Visual Patterns
    - [Stripes](./patterns/stripes.html) - `| | | | | | | `
 - Musical Pitch
@@ -45,7 +61,7 @@ These pages describe specific patterns and point out examples across various dis
    - [Spooky Sevenths Progression](./patterns/spooky-sevenths-progression.html)
    - [String Harmonics](./patterns/string-harmonics.html)
 - Periodic Motion
-   - [Uniform Circular Motion](./patterns/circular-motion.html)
+   - [Uniform Circular Motion](./building_blocks/circular-motion)
    - [Lissajous Curves](./patterns/lissajous.html)
    - [Rose Curves](./patterns/rose-curves.html)
    - [Trochoids](./patterns/trochoids.html)

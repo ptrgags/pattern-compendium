@@ -8,7 +8,7 @@ layout: default
 
 🚧 Outline for now
 
-- One representation for [Uniform Circular Motion](./circular-motion.html) is $C_n(t) = \cos_n + i\sin_n$ with a single frequency $n$
+- One representation for [Uniform Circular Motion](../building_blocks/circular-motion) is $C_n(t) = \cos_n + i\sin_n$ with a single frequency $n$
 - What if we allow each sinusoid to have a different frequency? $a, b$
 - Let's define $$L_{a, b} = \cos_a + i \sin_b$$
 - TODO: explore properties of Lissajous curves

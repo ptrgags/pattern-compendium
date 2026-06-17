@@ -7,7 +7,7 @@ layout: default
 
 This page uses definitions and notation from the following pages:
 
-- [Uniform Circular Motion](./circular-motion.html)
+- [Uniform Circular Motion](../building_blocks/circular-motion)
 
 ## Definition
 
@@ -35,7 +35,7 @@ There are already plenty of great explanations of the Fourier Transform out ther
 I like to use the following abbreviations to make the Fourier Transform
 more readable.
 
-- I like to define a function $C_k(t) = e^{2\pi i k t}$ (see [Uniform Circular Motion](./circular-motion.html)) to abbreviate the complex exponential. This has some benefits:
+- I like to define a function $C_k(t) = e^{2\pi i k t}$ (see [Uniform Circular Motion](../building_blocks/circular-motion)) to abbreviate the complex exponential. This has some benefits:
     - It emphasizes that that exponential represents _circular motion_. 
     - Using a subscript emphasizes which variable is held constant.
     - Quite a few operations can be written concisely. E.g. when multiplying complex exponentials, $C_aC_b = C_{a+b}$

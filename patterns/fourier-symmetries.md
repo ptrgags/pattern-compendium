@@ -7,7 +7,7 @@ layout: default
 
 This page uses some definitions and notation from the following pages:
 
-- [Uniform Circular Motion](./circular-motion.html)
+- [Uniform Circular Motion](../building_blocks/circular-motion)
 - [Fourier Transform](./fourier-transform.html)
 
 ## Linearity
@@ -157,7 +157,7 @@ $$
 Interpretation:
 
 - $f(t - d)$ means delay the original signal by a delay of $d$ seconds
-- From the [Uniform Circular Motion](./circular-motion.html) page, $C_{-k}$ can be interpreted as a _rotation_, so $C_{-k}(d)$ is a rotation by angle $\theta = {-2 \pi k d}$
+- From the [Uniform Circular Motion](../building_blocks/circular-motion) page, $C_{-k}$ can be interpreted as a _rotation_, so $C_{-k}(d)$ is a rotation by angle $\theta = {-2 \pi k d}$
     - This rotation is clockwise in the complex plane since the angle is negative
     - The angle is proportional to the phase shift $d$.
     - The angle is also proportional to the frequency $k$, since faster spinning components move further in the same amount of time

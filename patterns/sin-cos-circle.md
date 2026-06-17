@@ -4,8 +4,13 @@ layout: default
 
 # Sine and Cosine as Circular Motion
 
-🚧 Outline for now
+## Prerequisites
 
+- [Uniform circular motion](../building_blocks/circular-motion)
+
+## More Details
+
+🚧 Outline for now
 - IMG: Cosine and sine diagrams
 - $$\cos_n = \frac{1}{2}(C_n + C_{-n})$$
     - Adding two circular motions in opposite directions

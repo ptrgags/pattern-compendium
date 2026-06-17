@@ -1,0 +1,32 @@
+---
+creating-symmetry:
+  title: Creating Symmetry
+  subtitle: The Artful Mathematics of Wallpaper Patterns
+  author: Frank A. Farris
+  type: book
+  year: 2015
+  publisher: Princeton University Press
+fractals-everywhere:
+  title: Fractals Everywhere
+  author: Michael F. Barnsley
+  type: book
+  year: 2012
+  publisher: Dover Publications
+indras-pearls:
+  title: Indra's Pearls
+  subtitle: The Vision of Felix Klein
+  author: David Mumford, Caroline Series, and David Wright
+  year: 2002
+  type: book
+  publisher: Cambridge University Press
+symmetries-of-things:
+  title: The Symmetries of Things
+  short_authors: Conway, Burgiel and Goodman-Strauss
+  authors: John H. Conway, Heidi Burgiel, and Chaim Goodman-Strauss
+  year: 2016
+  publisher: CRC Press
+electrodynamics:
+  title: Introduction to Electrodynamics
+  Author: David J. Griffiths
+  year: 2013
+  publisher: Pearson

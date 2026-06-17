@@ -12,7 +12,7 @@ layout: default
     - So the center of the moving gear is at radius $R - r$ and just rotates around the origin.
     - The drawing arm is a distance $d$ from the center of the moving gear, and rotates in the opposite direction
     - the drawing arm's frequency is the ratio $(R - r)/r$ (TODO: why was this?)
-    - so in terms of [circular motion](./circular-motion.html) we have $((R - r)C_n + dC_{n(R-r)/r})C_1$
+    - so in terms of [circular motion](../building_blocks/circular-motion) we have $((R - r)C_n + dC_{n(R-r)/r})C_1$
 - [Epicycloid (wiki)](https://en.wikipedia.org/wiki/Epicycloid)
     - Stationary gear has radius $R$
     - Moving gear's center is at radius $R + r$

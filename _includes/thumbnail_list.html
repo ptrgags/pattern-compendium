@@ -1,0 +1,12 @@
+<div class="card-list">
+{% for page in include.collection %}
+    {%- capture image_url -%}./{{include.collection_name}}/figures/{{page.thumbnail}}{%- endcapture -%}
+    {%- capture page_url -%}./{{include.collection_name}}/{{page.slug}}.html{%- endcapture -%}
+    {% include thumbnail.html 
+        title=page.title
+        page_url=page_url
+        image_url=image_url
+        alt=page.thumbnail_alt 
+    %}
+{% endfor %}
+</div>

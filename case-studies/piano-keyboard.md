@@ -31,7 +31,7 @@ IMG: Diagram of `E(12, 5) and E(12, 7)` compared with the piano keyboard
 - Musical Scales
     - If you play across the white keys, you get a [diatonic scale](../patterns/diatonic-scale.html).
     - If you play across the black keys, you get a [pentatonic scale](../patterns/pentatonic-scale.html)
-    - If you move across the keyboard in fix-sized steps you get what I'll call [uniform scale](../patterns/uniform-scale.html) for lack of a better term
+    - If you move across the keyboard in fix-sized steps you get what I'll call [uniform scale](../patterns/uniform-music-scale) for lack of a better term
 - Semitones and Frequency
     - The keys of a piano keyboard are one semitone (half-step) apart
     - Octaves, semitones and cents form a [logarithmic scale for frequency](../patterns/frequency-log-scale.html).
